@@ -589,7 +589,10 @@ alias printnev=printenv
 alias printnv=printenv
 alias printev=printenv
 alias _lscnf=_lsconf
-
+alias temp=' vcgencmd measure_temp'
+alias nano='nano -l'
+alias OS='grep -i 'pretty' /etc/os-release'
+alias du='du . --max-depth=1 | sort -nr | cut -f2 | xargs -n 1 du -hs'
 if [ -r ~/.alias ]; then
 	. ~/.alias
 else
