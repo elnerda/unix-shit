@@ -589,6 +589,8 @@ alias printnev=printenv
 alias printnv=printenv
 alias printev=printenv
 alias _lscnf=_lsconf
+alias temp = vcgencmd measure_temp
+
 
 if [ -r ~/.alias ]; then
 	. ~/.alias
