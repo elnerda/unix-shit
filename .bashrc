@@ -573,7 +573,7 @@ alias rm='rm -i'
 alias dir='ls -l'
 alias ll='ls -l'
 alias la='ls -la'
-alias l='ls -alF'
+alias l='ls -alF --color=auto'
 alias ls-l='ls -l'
 alias rd=rmdir
 alias md='mkdir -p'
